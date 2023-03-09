@@ -1,0 +1,2 @@
+#!/bin/bash
+find / -owner guillaume -print0 | xargs -0 chown -h betty
