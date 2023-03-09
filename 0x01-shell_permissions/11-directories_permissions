@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod ugo+x {} /
+find . -type d -print0 | xargs -0 chmod ugo+x >/dev/null 2>&1 | xargs -0 ls -ld
