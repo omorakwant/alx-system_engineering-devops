@@ -10,3 +10,4 @@
 9-duplicate last line: duplicates the last line of the file iacta
 10-no more js: deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
 11-directories: it counts the number of directories and sub-directories in the current directory
+12-newest files: Displays the 10 newest files in the current directory
